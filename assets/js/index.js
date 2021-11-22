@@ -28,6 +28,7 @@ function getGitHubProfileInfos() {
     })
     .then(() => {
       loading.style.visibility = 'hidden'
+      container.style.visibility = 'visible'
     })
 }
 

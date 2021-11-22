@@ -32,6 +32,7 @@ main {
 }
 
 #container {
+  visibility: hidden;
   max-width: 600px;
   padding: 12px;
   margin-top: 6rem;
