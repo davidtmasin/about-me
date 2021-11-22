@@ -30,7 +30,7 @@ function getGitHubProfileInfos() {
       setTimeout(() => {
         loading.style.visibility = 'hidden'
         container.style.visibility = 'visible'
-      }, 2500)
+      }, 1500)
     })
 }
 

@@ -41,7 +41,12 @@
       <section id="container">
         <div class="bg">
           <header>
-            <div class="image" title="David Teixeira" id="imageOwner"></div>
+            <div
+              class="image"
+              title="David Teixeira"
+              id="imageOwner"
+              onclick="audioImg()"
+            ></div>
           </header>
 
           <div class="name-headline">
@@ -98,6 +103,13 @@
         </div>
       </section>
       <script src="./assets/js/index.js"></script>
+      <script>
+        function audioImg() {
+          const audioImage = new Audio()
+          audioImage.src = './assets/musics/goku.wav'
+          audioImage.play()
+        }
+      </script>
     </main>
   </body>
 </html>
