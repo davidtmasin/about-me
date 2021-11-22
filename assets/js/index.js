@@ -26,6 +26,9 @@ function getGitHubProfileInfos() {
       const userLink = data.html_url
       myGithub.href = userLink
     })
+    .then(() => {
+      loading.style.visibility = 'hidden'
+    })
 }
 
 function inputLinkSocialMedia() {
