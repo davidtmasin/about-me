@@ -1,13 +1,18 @@
-html,
+/* html,
 body {
   height: 100%;
 }
 
 body {
   align-items: center;
-  /* background-color: #1d1f20; */
+  background-color: #1d1f20;
   display: flex;
   justify-content: center;
+} */
+#flex-box {
+  position: absolute;
+  top: 50%; /* posiciona na metade da tela */
+  margin-top: -25px; /* e retrocede metade da altura */
 }
 
 .loader {
