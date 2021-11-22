@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('../fonts/proxima-nova.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'ProximaNova', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #002136;
+  background: -webkit-linear-gradient(
+      315deg,
+      #002136 0%,
+      #002136 30%,
+      #00385c 100%
+    )
+    fixed;
+  background: linear-gradient(135deg, #002136 0%, #002136 30%, #00385c 100%)
+    fixed;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#container {
+  max-width: 600px;
+  padding: 12px;
+  margin-top: 6rem;
+  margin-bottom: 10px;
+}
+.bg {
+  background: rgb(227, 231, 238);
+  border-radius: 5px;
+  border: 1px solid #333;
+  box-shadow: 15px 18px 27px -11px rgba(75, 74, 74, 0.61);
+  -webkit-box-shadow: 15px 18px 27px -11px rgba(75, 74, 74, 0.61);
+  -moz-box-shadow: 15px 18px 27px -11px rgba(75, 74, 74, 0.61);
+}
+header {
+  /* background: url('https://cdn.pixabay.com/photo/2019/10/08/14/24/futuristic-4535174_960_720.jpg') 
+    no-repeat center/cover;*/
+  height: 90px;
+  border-radius: 5px;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-85px);
+  border-radius: 50%;
+  border: 5px solid rgb(227, 231, 238);
+  width: 160px;
+  height: 160px;
+  background: url('https://unavatar.now.sh/github/davidtmasin');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.name-headline {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#name {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 1rem 0 0.5rem 0;
+}
+
+#keywords {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.aboutMe {
+  color: #333;
+  font-size: 100%;
+  padding: 0 1.1rem;
+  text-align: justify;
+  text-justify: auto;
+  line-height: 1.5rem;
+  margin: 1rem 0;
+}
+.aboutMe:last-child {
+  text-align: center;
+}
+.socialMedias {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.socialMedias li {
+  list-style-type: none;
+}
+
+.socialMedias li a img {
+  width: 40px;
+  transition: 0.5s;
+}
+
+.socialMedias li a:hover img {
+  transform: scale(1.2) translateY(-10px);
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    padding-top: 10%;
+  }
+}
