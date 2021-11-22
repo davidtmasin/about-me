@@ -52,7 +52,7 @@ header {
   border-radius: 5px;
 }
 
-.image {
+#imageOwner {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -61,7 +61,8 @@ header {
   border: 5px solid rgb(227, 231, 238);
   width: 160px;
   height: 160px;
-  background: url('https://unavatar.now.sh/github/davidtmasin');
+  /* background: url('https://unavatar.now.sh/github/davidtmasin'); */
+  background: url();
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -72,7 +73,7 @@ header {
   margin-bottom: 20px;
 }
 
-#name {
+#nameOwner {
   font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
@@ -120,6 +121,6 @@ header {
 
 @media only screen and (min-width: 768px) {
   main {
-    padding-top: 10%;
+    padding-top: 5%;
   }
 }
