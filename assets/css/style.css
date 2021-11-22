@@ -89,7 +89,7 @@ header {
 .aboutMe {
   color: #333;
   font-size: 100%;
-  padding: 0 1.1rem;
+  padding: 0 2.2rem;
   text-align: justify;
   text-justify: auto;
   line-height: 1.5rem;
@@ -122,5 +122,8 @@ header {
 @media only screen and (min-width: 768px) {
   main {
     padding-top: 5%;
+  }
+  .aboutMe {
+    padding: 0 1.1rem;
   }
 }
