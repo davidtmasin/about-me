@@ -27,8 +27,10 @@ function getGitHubProfileInfos() {
       myGithub.href = userLink
     })
     .then(() => {
-      loading.style.visibility = 'hidden'
-      container.style.visibility = 'visible'
+      setTimeout(() => {
+        loading.style.visibility = 'hidden'
+        container.style.visibility = 'visible'
+      }, 5000)
     })
 }
 
